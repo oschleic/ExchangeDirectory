@@ -1,61 +1,59 @@
-.page-selection{
+.page-selection {
   display: flex;
   justify-content: center;
 }
-.space{
+.space {
   width: 25vh;
 }
-.arrow:hover{
+.arrow:hover {
   cursor: pointer;
   color: black;
 }
 
-
-.disabled{
+.disabled {
   cursor: default !important;
   color: gray !important;
   opacity: 50%;
 }
 
-.table-container{
-    padding: 1em;
+.table-container {
+  padding: 1em;
 }
 
-.exchange-logo{
-    border-radius: 25px;
+.exchange-logo {
+  border-radius: 25px;
 }
 
-.trust-score{
-    color: black;
-    border-radius: 25px;
-    padding: 5px;
-    font-weight: bolder;
+.trust-score {
+  color: black;
+  border-radius: 25px;
+  padding: 5px;
+  font-weight: bolder;
 }
 
-th{
-    border-bottom: 1px solid !important;
+th {
+  border-bottom: 1px solid !important;
 }
 
-td{
-    border-bottom: 1px solid !important;
-    padding: 10px !important;
-    border-left: 0px;
-    border-right: 0px;
+td {
+  border-bottom: 1px solid !important;
+  padding: 10px !important;
+  border-left: 0px;
+  border-right: 0px;
 }
 
-table{
-    border-collapse: collapse;
-    border-spacing: 30px 0;
-    background-color: black;
-    border-radius: 10px;
-    padding: 50px;
+table {
+  border-collapse: collapse;
+  border-spacing: 30px 0;
+  background-color: black;
+  border-radius: 10px;
+  padding: 50px;
 }
 
-
-tr:hover{
-    background-color: grey;
-    cursor: pointer;
+tr:hover {
+  background-color: grey;
+  cursor: pointer;
 }
 
-a{
+a {
 }

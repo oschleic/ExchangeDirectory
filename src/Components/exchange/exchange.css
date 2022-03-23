@@ -1,29 +1,26 @@
-.image{
-    height: 50px;
+.image {
+  height: 50px;
 }
 
-.name{
-    font-weight: 800;
+.name {
+  font-weight: 800;
 }
 
-
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
 
-.button{
-    position: absolute;
-    bottom: 2em;
-    left: 2em;
+.button {
+  position: absolute;
+  bottom: 2em;
+  left: 2em;
 }
 
-
-
-.exchange-container{
-    display: flex;
-    flex-direction: column;
-    width: fit-content;
-    background-color:black;
-    border-radius: 10px;
-    padding: 35px;
+.exchange-container {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  background-color: black;
+  border-radius: 10px;
+  padding: 35px;
 }
