@@ -72,6 +72,7 @@ function List() {
             {exchanges.map((exchange) => (
               <tr
                 key={exchange.id}
+                id={exchange.id}
                 onClick={(e) => {
                   e.preventDefault();
                   window.location.href = "/exchange/" + exchange.id;
