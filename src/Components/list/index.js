@@ -2,11 +2,13 @@ import "./list.css";
 import { useEffect, useState } from "react";
 import { getExchanges } from "../../api";
 import Button from "react-bootstrap/Button";
+import { useNavigate  } from "react-router-dom";
 import { ArrowLeft, ArrowRight } from "react-bootstrap-icons";
 
 function List() {
   const [exchanges, setExchanges] = useState([]);
   const [page, setPage] = useState(1);
+  let navigate = useNavigate();
   useEffect(() => {
     const fetch = async () => {
       setExchanges(await getExchanges(10, page));
@@ -75,7 +77,7 @@ function List() {
                 id={exchange.id}
                 onClick={(e) => {
                   e.preventDefault();
-                  window.location.href = "/exchange/" + exchange.id;
+                  navigate("/exchange/" + exchange.id);
                 }}
               >
                 <td>

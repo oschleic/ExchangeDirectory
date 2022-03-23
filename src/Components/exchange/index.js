@@ -2,12 +2,14 @@ import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { getExchange } from "../../api";
 import "./exchange.css";
+import { useNavigate  } from "react-router-dom";
 import Button from "react-bootstrap/Button";
 import { ArrowLeft } from "react-bootstrap-icons";
 
 function Exchange() {
   let { id } = useParams();
   const [exchange, setExchange] = useState({});
+  let navigate = useNavigate();
   useEffect(() => {
     const fetch = async () => {
       setExchange(await getExchange(id));
@@ -17,7 +19,7 @@ function Exchange() {
 
   const goBack = (e) => {
     e.preventDefault();
-    window.location.href = "/";
+    navigate("/");
   };
 
   return (
