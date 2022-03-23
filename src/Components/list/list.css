@@ -1,0 +1,27 @@
+.exchange-name{
+
+}
+
+.exchange-logo{
+    border-radius: 25px;
+}
+
+.trust-score{
+    border-radius: 25px;
+    padding: 5px;
+    font-weight: bolder;
+}
+
+td{
+    border-bottom: 1px solid;
+    padding: none;
+}
+
+table{
+    min-width: 100vh;
+    padding: none;
+}
+
+tr:hover{
+    background-color: grey;
+}
