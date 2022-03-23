@@ -36,12 +36,12 @@ function Exchange() {
             <span className='tag'>Year Established: {exchange.year_established}</span>
             <span className='tag'>Country: {exchange.country}</span>
             
-            <div>
-                <a href={exchange.facebook_url}>Facebook  </a>
-                <a href={exchange.reddit_url}>Reddit  </a>
-                <a href={exchange.telegram_url}>Telegram  </a>
-                <a href={exchange.slack_url}>Slack  </a>
-            </div>
+            
+            <a href={exchange.facebook_url}>Facebook</a>
+            <a href={exchange.reddit_url}>Reddit</a>
+            <a href={exchange.telegram_url}>Telegram</a>
+            <a href={exchange.slack_url}>Slack</a>
+            
 
             
         </div>

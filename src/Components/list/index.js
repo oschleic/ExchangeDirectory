@@ -70,7 +70,7 @@ function List() {
                             </div>
                         </td>
                         <td>
-                            <div className='trust-score' style={getColor(exchange.trust_score)}>{exchange.trust_score}</div>
+                            <div className='trust-score' style={getColor(exchange.trust_score)}>{exchange.trust_score} / 10</div>
                         </td>
                     </tr>
                 )}
