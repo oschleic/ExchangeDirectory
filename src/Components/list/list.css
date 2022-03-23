@@ -1,5 +1,24 @@
-.exchange-name{
+.page-selection{
+  display: flex;
+  justify-content: center;
+}
+.space{
+  width: 25vh;
+}
+.arrow:hover{
+  cursor: pointer;
+  color: black;
+}
 
+
+.disabled{
+  cursor: default !important;
+  color: gray !important;
+  opacity: 50%;
+}
+
+.table-container{
+    padding: 1em;
 }
 
 .exchange-logo{
@@ -12,14 +31,26 @@
     font-weight: bolder;
 }
 
-td{
+th{
     border-bottom: 1px solid;
 }
 
+td{
+    border-bottom: 1px solid;
+    border-left: 0px;
+    border-right: 0px;
+}
+
 table{
+    border-collapse: collapse;
+    border-spacing: 30px 0;
 }
 
 
 tr:hover{
     background-color: grey;
+    cursor: pointer;
+}
+
+a{
 }
